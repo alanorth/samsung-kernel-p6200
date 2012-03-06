@@ -3,7 +3,7 @@
 function setenv {
 	echo -n "Setting ARM environment..."
 	export ARCH=arm
-	export CROSS_COMPILE="ccache /home/aorth/src/android-ndk-r6/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-"
+	export CROSS_COMPILE="ccache /home/aorth/src/android-ndk-r7b/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-"
 	echo " done."
 
 	echo -n "Setting other environment variables..."
