@@ -24,7 +24,7 @@ schedtool -B -n19 -e make -j${CPUS} modules
 cp $(find . -name "*.ko") usr/initramfs/lib/modules/
 schedtool -B -n19 -e make -j${CPUS}
 
-if [ $$ -eq 0 ]
+if [ $? -eq 0 ]
 then
 	echo "Mmm... smells like bacon!"
 	ls -l arch/arm/boot/zImage
