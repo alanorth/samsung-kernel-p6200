@@ -64,6 +64,9 @@ include/linux/utsrelease.h
 include/linux/bounds.h
 include/generated
 
+# initramfs
+usr/initramfs
+
 # stgit generated dirs
 patches-*
 
